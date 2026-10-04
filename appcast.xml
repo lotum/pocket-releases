@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.8.1</title>
+      <pubDate>Sun, 04 Oct 2026 08:03:18 GMT</pubDate>
+      <sparkle:version>202610040757</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Patch Changes</h3><li>#34 `d890e38` Thanks @grischaerbe! - Each chat keeps what&#x27;s typed in its message box, text and attachments, so leaving a chat and coming back finds it there. A message that fails to send also goes back into the box after you&#x27;ve left the chat, and on Android leaving the chat no longer cancels a message still being sent.</li><li>Pocket Host&#x27;s Notifications section only shows the registered phones and Send test now: the built-in key is the only one, the fields for your own APNs key are gone.</li><li>#34 `d890e38` Thanks @grischaerbe! - iPhone: a sent message no longer sometimes stays in the message box after it has already shown up in the chat.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.8.1-202610040757.dmg" sparkle:edSignature="b6nX4i9BoIPjzkbV1sxhdtTUj2nyodeojzwbZDknwxt86Y4jYsV7U10Ht4Di1OYLpcu09BXgxcCQDsniusHTBQ==" length="11170474" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.8.0</title>
       <pubDate>Thu, 01 Oct 2026 19:54:32 GMT</pubDate>
       <sparkle:version>202610011948</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>Android app: tells you when a new version is out (&quot;Pocket 0.5.0 is available&quot; with Download over the workspace list), and Settings shows the installed version with &quot;Check for updates&quot;.</li><li>The phone apps only connect over https (Tailscale Serve), so the pairing token never crosses a network in the clear. An http address is refused with &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li><h3>Patch Changes</h3><li>Android app: connects only over https (Tailscale Serve); a pairing with a plain http address says &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li>]]></description>
       <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.5.0-202610011114.dmg" sparkle:edSignature="a8oUK7Ss7C+iXJs6Qpi3Mv+h96c8oV68MOtwVsu0se8PxfGrYCpUEgDAwv8l+xmjyEdCFwR4joyFPs8FTo76Bg==" length="11159833" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.4.0</title>
-      <pubDate>Thu, 01 Oct 2026 10:59:15 GMT</pubDate>
-      <sparkle:version>202610011053</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>Android app: Pocket for Android pairs by QR code, link or by hand and does what the iOS app does (workspaces, chats, questions, blocked actions, diffs, the pull request bar, sending with attachments), except push notifications.</li><h3>Patch Changes</h3><li>#25 `349db38` Thanks @grischaerbe! - On iOS, images in replies show again when they sit right under a line of text, such as a caption; they stayed empty before. Android already showed them.</li><li>&quot;Check for Updates…&quot; brings Pocket Host to the front, so Sparkle&#x27;s window no longer opens behind other windows.</li><li>#25 `349db38` Thanks @grischaerbe! - When a turn is over but the agent still waits on background tasks, the chat on iOS and Android shows &quot;Waiting for task …&quot; with how long it has waited, like Conductor, and the stop button stays. The notification comes when the tasks are done.</li><li>Chats that wait on a subagent or background command show as running, as in Conductor, instead of as idle.</li>]]></description>
-      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.4.0-202610011053.dmg" sparkle:edSignature="cvYf4N2xIPwXqPOw4XrPJszPzQ+0LPnYqOT+5WKx4Vd2qmC+OsOgntEzrw8ljFBgjiKPQOip6t9/7ilX9KH1Aw==" length="11157751" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
