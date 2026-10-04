@@ -1,6 +1,6 @@
 {
-  "versionName": "0.8.0",
-  "versionCode": 29848062,
-  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.8.0.apk",
-  "notes": "• Notifications without setup: Pocket Host releases carry a push key that only works for Pocket, so Pocket from TestFlight gets notifications on every Mac. A key entered under Notifications still takes precedence, for your own builds."
+  "versionName": "0.8.1",
+  "versionCode": 29851670,
+  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.8.1.apk",
+  "notes": "• Each chat keeps what's typed in its message box, text and attachments, so leaving a chat and coming back finds it there. A message that fails to send also goes back into the box after you've left the chat, and on Android leaving the chat no longer cancels a message still being sent.\n• Pocket Host's Notifications section only shows the registered phones and Send test now: the built-in key is the only one, the fields for your own APNs key are gone.\n• iPhone: a sent message no longer sometimes stays in the message box after it has already shown up in the chat."
 }
