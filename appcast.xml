@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.8.2</title>
+      <pubDate>Mon, 05 Oct 2026 15:49:16 GMT</pubDate>
+      <sparkle:version>202610051542</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Patch Changes</h3><li>Chats with subagents look like in Conductor again: what a subagent does stays inside its Agent call instead of filling the chat, and notifications quote the main agent, not a subagent.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.8.2-202610051542.dmg" sparkle:edSignature="agqERjhI4aYM21kvmLn7gnfYdSlWcm3bloWqaijAe4OhoTayjOczZ+eCs+EfpZw6wnVsTPY/W6of36jpbxKBBQ==" length="11171816" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.8.1</title>
       <pubDate>Sun, 04 Oct 2026 08:03:18 GMT</pubDate>
       <sparkle:version>202610040757</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>Android app: updates install from inside the app. &quot;Update&quot; downloads the new version, checks it&#x27;s Pocket signed with the same key, and hands it to Android, so you only confirm &quot;Update this app?&quot;; &quot;Open in browser&quot; stays as the fallback.</li>]]></description>
       <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.6.0-202610011158.dmg" sparkle:edSignature="kaiVspSjY4Co7JjLQ3dQMAfpHonlcKLQPpnRR0GAhs/9Q+DkkewNBmvJ4sbnJcuKn+lusMYKgGa156x4VS41Dg==" length="11159830" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.5.0</title>
-      <pubDate>Thu, 01 Oct 2026 11:20:39 GMT</pubDate>
-      <sparkle:version>202610011114</sparkle:version>
-      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>Android app: tells you when a new version is out (&quot;Pocket 0.5.0 is available&quot; with Download over the workspace list), and Settings shows the installed version with &quot;Check for updates&quot;.</li><li>The phone apps only connect over https (Tailscale Serve), so the pairing token never crosses a network in the clear. An http address is refused with &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li><h3>Patch Changes</h3><li>Android app: connects only over https (Tailscale Serve); a pairing with a plain http address says &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li>]]></description>
-      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.5.0-202610011114.dmg" sparkle:edSignature="a8oUK7Ss7C+iXJs6Qpi3Mv+h96c8oV68MOtwVsu0se8PxfGrYCpUEgDAwv8l+xmjyEdCFwR4joyFPs8FTo76Bg==" length="11159833" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
