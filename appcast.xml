@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.10.0</title>
+      <pubDate>Tue, 06 Oct 2026 15:26:51 GMT</pubDate>
+      <sparkle:version>202610061520</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>#46 `42e7314` Thanks @grischaerbe! - Claude knows when you read a chat on your phone. While a chat is open in Pocket, Claude in Conductor gets notes from Pocket&#x27;s Settings with every prompt: keep replies short, don&#x27;t ask you to look at the Mac, send links over Tailscale. You can edit the notes or turn this off in Settings → Claude. Pocket Host adds a hook to `~/.claude/settings.json` for this the first time a phone asks. iPhone and Android alike; not for Codex chats.</li><li>#48 `97a6fbd` Thanks @grischaerbe! - Pocket on iPad is laid out like Conductor: the workspaces in a sidebar, the open workspace beside them with its chats as tabs under the pull request bar (switch, close and open chats there), the chat at a readable width, and keyboard shortcuts (⌘↩ send, ⌘T new chat, ⌘W close chat, ⌘⇧] / ⌘⇧[ next and previous chat, ⌘⇧N new workspace). The iPhone, narrow iPad windows and Android stay as they are.</li><li>#45 `d40a896` Thanks @grischaerbe! - Videos in chats: videos attached to a prompt and videos an agent puts in its reply (`!…`) show as a thumbnail with a play button, and a tap plays them (in Quick Look on iPhone, with Share to save them; in a full-screen player on Android, with Share). Photo Library now offers videos too, and Choose File takes them; they go to the Mac as they are, up to 1 GB. MP4, M4V and MOV. Needs the new Pocket Host.</li><h3>Patch Changes</h3><li>Android app: &quot;Scan QR code&quot; no longer closes Pocket right away. The scanner couldn&#x27;t start in the released app.</li><li>#44 `20a8740` Thanks @grischaerbe! - iPhone: opening a workspace slides the chat&#x27;s title in smoothly instead of jumping and cutting it off differently halfway through.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.10.0-202610061520.dmg" sparkle:edSignature="Fs3BcZmcS0vI7POim3QIpf8VeWKas8jR8ygthW8C2aQ7FxRoi96xOAWW2Bobg7mXH4Q8fUAJQ6TGsgbU2MHaAg==" length="11304202" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.9.0</title>
       <pubDate>Tue, 06 Oct 2026 11:34:34 GMT</pubDate>
       <sparkle:version>202610061128</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>Notifications without setup: Pocket Host releases carry a push key that only works for Pocket, so Pocket from TestFlight gets notifications on every Mac. A key entered under Notifications still takes precedence, for your own builds.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.0-202610011948.dmg" sparkle:edSignature="7mDs11JqWzUxXE5RzFQFAJc6cmk4u67Yl8Mk6ROLJNJFnWxKIYOHupwSSnmxbAvtTSn0hIQ+qaBpYvgftbXhCA==" length="11187203" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.7.0</title>
-      <pubDate>Thu, 01 Oct 2026 16:44:52 GMT</pubDate>
-      <sparkle:version>202610011639</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>#32 `0e5497f` Thanks @grischaerbe! - A proper image viewer: pinch and double-tap to zoom in full resolution, swipe between a prompt&#x27;s images (also the ones picked for the next prompt, from the message box), swipe down to close, and Share, Save Image and Save to Files. Quick Look on iOS (images from the web open too now), Telephoto on Android.</li><li>#31 `4ef13fa` Thanks @grischaerbe! - Replies stay unread when you leave a chat on the phone while the agent works: Conductor on the Mac moves to a quiet chat (or out of the way) instead of marking them read with nobody looking. Needs the matching Pocket Host.</li><li>#30 `2e486ed` Thanks @grischaerbe! - The workspace list looks like Mail: a plain list under a large &quot;Workspaces&quot; title instead of gray cards. Each workspace leads with its pull request as Conductor draws it, on a disk in the PR&#x27;s color. A green ring turns around it while an agent works, and a badge shows when the agent asks you something or failed. A blue dot before the name marks unread replies, like Mail, and each row shows when the workspace last changed.</li><li>#28 `be956cd` Thanks @grischaerbe! - New workspaces no longer need a first message: leave it empty and Conductor creates the workspace without starting the agent. Needs the matching Pocket Host.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.7.0-202610011639.dmg" sparkle:edSignature="X5hwCUBYfVKpBzU9fuzAuYKvt/M/H027HWnC1mOuS8DxE/4haK+2btNx+sNnb8rOppOwjmA2Z+9QqGz0XMKABw==" length="11174161" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
