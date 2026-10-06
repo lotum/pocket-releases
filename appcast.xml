@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.11.0</title>
+      <pubDate>Tue, 06 Oct 2026 17:40:08 GMT</pubDate>
+      <sparkle:version>202610061733</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>#49 `07550d7` Thanks @grischaerbe! - With a hardware keyboard, Enter in the message box sends, Shift+Enter starts a new line, and ⌘↩ (Ctrl+Enter on Android) queues the message while the agent works, like in Conductor, or sends it otherwise. On iPad the suggestion bar of a hardware keyboard no longer covers the bottom of the message box.</li><li>#52 `344bf48` Thanks @grischaerbe! - When a chat has an unsent draft on the Mac, the message about it now has an &quot;Overwrite&quot; button: it clears the draft in Conductor and sends your message instead. iPhone and Android alike.</li><h3>Patch Changes</h3><li>#50 `c7896f1` Thanks @grischaerbe! - iPad: the sidebar stays open when you leave the app and come back.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.11.0-202610061733.dmg" sparkle:edSignature="sVcglEybDO3YTIHAfoYuOaH0KIDVkdnsf10O0z+8KX/7kDZc7SSoEfKfy7eugc10AU2fsVbWmY6+BOAd8IX0CQ==" length="11296444" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.10.0</title>
       <pubDate>Tue, 06 Oct 2026 15:26:51 GMT</pubDate>
       <sparkle:version>202610061520</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Patch Changes</h3><li>#34 `d890e38` Thanks @grischaerbe! - Each chat keeps what&#x27;s typed in its message box, text and attachments, so leaving a chat and coming back finds it there. A message that fails to send also goes back into the box after you&#x27;ve left the chat, and on Android leaving the chat no longer cancels a message still being sent.</li><li>Pocket Host&#x27;s Notifications section only shows the registered phones and Send test now: the built-in key is the only one, the fields for your own APNs key are gone.</li><li>#34 `d890e38` Thanks @grischaerbe! - iPhone: a sent message no longer sometimes stays in the message box after it has already shown up in the chat.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.1-202610040757.dmg" sparkle:edSignature="b6nX4i9BoIPjzkbV1sxhdtTUj2nyodeojzwbZDknwxt86Y4jYsV7U10Ht4Di1OYLpcu09BXgxcCQDsniusHTBQ==" length="11170474" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.8.0</title>
-      <pubDate>Thu, 01 Oct 2026 19:54:32 GMT</pubDate>
-      <sparkle:version>202610011948</sparkle:version>
-      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>Notifications without setup: Pocket Host releases carry a push key that only works for Pocket, so Pocket from TestFlight gets notifications on every Mac. A key entered under Notifications still takes precedence, for your own builds.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.0-202610011948.dmg" sparkle:edSignature="7mDs11JqWzUxXE5RzFQFAJc6cmk4u67Yl8Mk6ROLJNJFnWxKIYOHupwSSnmxbAvtTSn0hIQ+qaBpYvgftbXhCA==" length="11187203" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
