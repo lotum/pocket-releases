@@ -1,6 +1,6 @@
 {
-  "versionName": "0.11.0",
-  "versionCode": 29855126,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.11.0.apk",
-  "notes": "• With a hardware keyboard, Enter in the message box sends, Shift+Enter starts a new line, and ⌘↩ (Ctrl+Enter on Android) queues the message while the agent works, like in Conductor, or sends it otherwise. On iPad the suggestion bar of a hardware keyboard no longer covers the bottom of the message box.\n• When a chat has an unsent draft on the Mac, the message about it now has an \"Overwrite\" button: it clears the draft in Conductor and sends your message instead. iPhone and Android alike.\n• iPad: the sidebar stays open when you leave the app and come back."
+  "versionName": "0.11.1",
+  "versionCode": 29855432,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.11.1.apk",
+  "notes": "• The workspace list no longer flashes \"Can’t reach …\" for a moment when you come back to the app: a connection error shows only once three loads in a row, a second apart, have failed. iPhone and Android alike."
 }
