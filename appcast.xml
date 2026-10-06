@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.11.1</title>
+      <pubDate>Tue, 06 Oct 2026 23:12:12 GMT</pubDate>
+      <sparkle:version>202610062240</sparkle:version>
+      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Patch Changes</h3><li>#53 `4c9baeb` Thanks @grischaerbe! - The workspace list no longer flashes &quot;Can’t reach …&quot; for a moment when you come back to the app: a connection error shows only once three loads in a row, a second apart, have failed. iPhone and Android alike.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.11.1-202610062240.dmg" sparkle:edSignature="tS+c0MDaxL006V1A28fDvnwTMBrbapwhpqu0+DUW5phLJSl/JRvaF2HWD3TvZJV5v0LCLur7fuphucne4yMSCA==" length="11294782" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.11.0</title>
       <pubDate>Tue, 06 Oct 2026 17:40:08 GMT</pubDate>
       <sparkle:version>202610061733</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Patch Changes</h3><li>Chats with subagents look like in Conductor again: what a subagent does stays inside its Agent call instead of filling the chat, and notifications quote the main agent, not a subagent.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.2-202610051542.dmg" sparkle:edSignature="agqERjhI4aYM21kvmLn7gnfYdSlWcm3bloWqaijAe4OhoTayjOczZ+eCs+EfpZw6wnVsTPY/W6of36jpbxKBBQ==" length="11171816" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.8.1</title>
-      <pubDate>Sun, 04 Oct 2026 08:03:18 GMT</pubDate>
-      <sparkle:version>202610040757</sparkle:version>
-      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Patch Changes</h3><li>#34 `d890e38` Thanks @grischaerbe! - Each chat keeps what&#x27;s typed in its message box, text and attachments, so leaving a chat and coming back finds it there. A message that fails to send also goes back into the box after you&#x27;ve left the chat, and on Android leaving the chat no longer cancels a message still being sent.</li><li>Pocket Host&#x27;s Notifications section only shows the registered phones and Send test now: the built-in key is the only one, the fields for your own APNs key are gone.</li><li>#34 `d890e38` Thanks @grischaerbe! - iPhone: a sent message no longer sometimes stays in the message box after it has already shown up in the chat.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.1-202610040757.dmg" sparkle:edSignature="b6nX4i9BoIPjzkbV1sxhdtTUj2nyodeojzwbZDknwxt86Y4jYsV7U10Ht4Di1OYLpcu09BXgxcCQDsniusHTBQ==" length="11170474" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
