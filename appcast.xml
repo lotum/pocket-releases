@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.9.0</title>
+      <pubDate>Tue, 06 Oct 2026 11:34:34 GMT</pubDate>
+      <sparkle:version>202610061128</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>#42 `7b9265f` Thanks @grischaerbe! - Pocket shows changes on the Mac right away: new messages, a chat&#x27;s state, the workspace list and the pull request bar update about 0.2 s after Conductor writes them, instead of on a 1.5–6 s timer. Pocket Host learns about changes from the operating system (writes to Conductor&#x27;s database and git caches) and streams them to the phone. Notifications go out sooner too. With an older Pocket Host the apps keep polling as before.</li><li>#41 `44c68d5` Thanks @grischaerbe! - Pocket Host has a &quot;Name on the phone&quot; field to give the Mac a name of its own instead of the computer name (which macOS sometimes numbers, like &quot;MacBook Pro (1021)&quot;). The apps pick up a new name the next time the workspace list or Settings opens, without pairing again.</li><h3>Patch Changes</h3><li>#38 `47f66c5` Thanks @grischaerbe! - Tapping a workspace in the list loads its chat before it opens: a spinner shows on the row (in place of the chevron on iPhone, of the time on Android) and the chat comes up already filled in. If the Mac takes longer than a few seconds, the chat opens anyway and finishes loading there.</li><li>#37 `7671769` Thanks @grischaerbe! - Sending from the phone no longer fails with &quot;Conductor has no open window&quot;: Pocket Host brings Conductor&#x27;s window back (closed, minimized or hidden), and starts Conductor first when it isn&#x27;t running.</li><li>#43 `9befedd` Thanks @grischaerbe! - Tapping a notification while a chat is open now opens the notification&#x27;s chat, also in another workspace, instead of only changing the title.</li><li>#40 `8498e7c` Thanks @grischaerbe! - iPhone: swiping back from a chat to the workspaces slides the chat&#x27;s title along smoothly instead of making it wobble.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.9.0-202610061128.dmg" sparkle:edSignature="7NbgAzJ+doepopS1f+rtuEaKUHD2mHwo6bbcVjpj6AXEfl0dRp5bfvPVvWU6f4iBRKxNrf4SPGUPYQBRqRokBQ==" length="11242220" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.8.2</title>
       <pubDate>Mon, 05 Oct 2026 15:49:16 GMT</pubDate>
       <sparkle:version>202610051542</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>#32 `0e5497f` Thanks @grischaerbe! - A proper image viewer: pinch and double-tap to zoom in full resolution, swipe between a prompt&#x27;s images (also the ones picked for the next prompt, from the message box), swipe down to close, and Share, Save Image and Save to Files. Quick Look on iOS (images from the web open too now), Telephoto on Android.</li><li>#31 `4ef13fa` Thanks @grischaerbe! - Replies stay unread when you leave a chat on the phone while the agent works: Conductor on the Mac moves to a quiet chat (or out of the way) instead of marking them read with nobody looking. Needs the matching Pocket Host.</li><li>#30 `2e486ed` Thanks @grischaerbe! - The workspace list looks like Mail: a plain list under a large &quot;Workspaces&quot; title instead of gray cards. Each workspace leads with its pull request as Conductor draws it, on a disk in the PR&#x27;s color. A green ring turns around it while an agent works, and a badge shows when the agent asks you something or failed. A blue dot before the name marks unread replies, like Mail, and each row shows when the workspace last changed.</li><li>#28 `be956cd` Thanks @grischaerbe! - New workspaces no longer need a first message: leave it empty and Conductor creates the workspace without starting the agent. Needs the matching Pocket Host.</li>]]></description>
       <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.7.0-202610011639.dmg" sparkle:edSignature="X5hwCUBYfVKpBzU9fuzAuYKvt/M/H027HWnC1mOuS8DxE/4haK+2btNx+sNnb8rOppOwjmA2Z+9QqGz0XMKABw==" length="11174161" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.6.0</title>
-      <pubDate>Thu, 01 Oct 2026 12:04:10 GMT</pubDate>
-      <sparkle:version>202610011158</sparkle:version>
-      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>Android app: updates install from inside the app. &quot;Update&quot; downloads the new version, checks it&#x27;s Pocket signed with the same key, and hands it to Android, so you only confirm &quot;Update this app?&quot;; &quot;Open in browser&quot; stays as the fallback.</li>]]></description>
-      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.6.0-202610011158.dmg" sparkle:edSignature="kaiVspSjY4Co7JjLQ3dQMAfpHonlcKLQPpnRR0GAhs/9Q+DkkewNBmvJ4sbnJcuKn+lusMYKgGa156x4VS41Dg==" length="11159830" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
