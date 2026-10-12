@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.12.0</title>
+      <pubDate>Mon, 12 Oct 2026 13:04:28 GMT</pubDate>
+      <sparkle:version>202610121258</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Pocket Voice, a test on iOS: a little helper on top of the app you talk to, for example in the car. It listens and answers through Google&#x27;s Gemini Live API with your own key and works the app where you can see it: hops into workspaces, types into the message box, sends after you say yes, sums up what agents did. Hidden unless `pocket://voice?on` turns it on; not on Android yet.</li><h3>Patch Changes</h3><li>Pocket Host finds Tailscale even when it connects after Pocket Host started, for example right after login, so &quot;Enable Tailscale Serve&quot; shows up without restarting Pocket Host. It also finds Tailscale in other install locations, and if Tailscale is installed but not connected, the panel says so instead of &quot;Tailscale not detected&quot;.</li><li>Pocket Voice (the iOS test) shows in Settings what it has cost so far today, this month and in total, estimated from the tokens Gemini reports.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.12.0-202610121258.dmg" sparkle:edSignature="6YLc4Tn9sdkDc/sMsSCUbH4VfoWBprft/FEw4dK3EAT8c3ytOTx1B8jP866/AM3hOqYpaBWrZVgH3llIFIi8Bw==" length="11320853" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.11.1</title>
       <pubDate>Tue, 06 Oct 2026 23:12:12 GMT</pubDate>
       <sparkle:version>202610062240</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>#42 `7b9265f` Thanks @grischaerbe! - Pocket shows changes on the Mac right away: new messages, a chat&#x27;s state, the workspace list and the pull request bar update about 0.2 s after Conductor writes them, instead of on a 1.5–6 s timer. Pocket Host learns about changes from the operating system (writes to Conductor&#x27;s database and git caches) and streams them to the phone. Notifications go out sooner too. With an older Pocket Host the apps keep polling as before.</li><li>#41 `44c68d5` Thanks @grischaerbe! - Pocket Host has a &quot;Name on the phone&quot; field to give the Mac a name of its own instead of the computer name (which macOS sometimes numbers, like &quot;MacBook Pro (1021)&quot;). The apps pick up a new name the next time the workspace list or Settings opens, without pairing again.</li><h3>Patch Changes</h3><li>#38 `47f66c5` Thanks @grischaerbe! - Tapping a workspace in the list loads its chat before it opens: a spinner shows on the row (in place of the chevron on iPhone, of the time on Android) and the chat comes up already filled in. If the Mac takes longer than a few seconds, the chat opens anyway and finishes loading there.</li><li>#37 `7671769` Thanks @grischaerbe! - Sending from the phone no longer fails with &quot;Conductor has no open window&quot;: Pocket Host brings Conductor&#x27;s window back (closed, minimized or hidden), and starts Conductor first when it isn&#x27;t running.</li><li>#43 `9befedd` Thanks @grischaerbe! - Tapping a notification while a chat is open now opens the notification&#x27;s chat, also in another workspace, instead of only changing the title.</li><li>#40 `8498e7c` Thanks @grischaerbe! - iPhone: swiping back from a chat to the workspaces slides the chat&#x27;s title along smoothly instead of making it wobble.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.9.0-202610061128.dmg" sparkle:edSignature="7NbgAzJ+doepopS1f+rtuEaKUHD2mHwo6bbcVjpj6AXEfl0dRp5bfvPVvWU6f4iBRKxNrf4SPGUPYQBRqRokBQ==" length="11242220" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.8.2</title>
-      <pubDate>Mon, 05 Oct 2026 15:49:16 GMT</pubDate>
-      <sparkle:version>202610051542</sparkle:version>
-      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Patch Changes</h3><li>Chats with subagents look like in Conductor again: what a subagent does stays inside its Agent call instead of filling the chat, and notifications quote the main agent, not a subagent.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.8.2-202610051542.dmg" sparkle:edSignature="agqERjhI4aYM21kvmLn7gnfYdSlWcm3bloWqaijAe4OhoTayjOczZ+eCs+EfpZw6wnVsTPY/W6of36jpbxKBBQ==" length="11171816" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
