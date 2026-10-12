@@ -1,6 +1,6 @@
 {
-  "versionName": "0.12.0",
-  "versionCode": 29863491,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.12.0.apk",
-  "notes": "• Pocket Voice, a test on iOS: a little helper on top of the app you talk to, for example in the car. It listens and answers through Google's Gemini Live API with your own key and works the app where you can see it: hops into workspaces, types into the message box, sends after you say yes, sums up what agents did. Hidden unless `pocket://voice?on` turns it on; not on Android yet.\n• Pocket Host finds Tailscale even when it connects after Pocket Host started, for example right after login, so \"Enable Tailscale Serve\" shows up without restarting Pocket Host. It also finds Tailscale in other install locations, and if Tailscale is installed but not connected, the panel says so instead of \"Tailscale not detected\".\n• Pocket Voice (the iOS test) shows in Settings what it has cost so far today, this month and in total, estimated from the tokens Gemini reports."
+  "versionName": "0.12.1",
+  "versionCode": 29863602,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.12.1.apk",
+  "notes": "• Pocket Voice (the iOS test) hears you now: the microphone's audio reaches Gemini also where the iPhone's echo cancellation delivers several channels or none at all. The helper says \"Connecting to Gemini…\" until it can talk, and Settings shows how the last conversation went."
 }
