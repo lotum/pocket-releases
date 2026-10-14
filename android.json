@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.1",
-  "versionCode": 29863997,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.13.1.apk",
-  "notes": "• Pocket Host builds again, so 0.13's Google Cloud sign-in reaches the Mac: two of its libraries released new versions on 2026-10-12 that didn't build together."
+  "versionName": "0.14.0",
+  "versionCode": 29866123,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.14.0.apk",
+  "notes": "• Pocket also runs on a Mac, for working on Conductor from another Mac such as a MacBook: the iPad layout, through Mac Catalyst. Click Copy pairing link in Pocket Host and Paste pairing link in Pocket to pair. It comes through TestFlight on the Mac once the release has a Mac profile; Android has no counterpart.\n• Typing \"/\" in the message box lists the chat's slash commands and skills with what they take and do, like Conductor's \"/\" menu; a tap puts one in the box. On iPhone, iPad, Mac and Android; needs the new Pocket Host.\n• Pocket on the Mac: the chat fills the window instead of a narrow column, and the message box sits further from the window's bottom edge. On the Mac and iPad, photos, videos and files dragged onto the message box become attachments, as if picked with \"+\"; not on Android yet."
 }
