@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.14.1</title>
+      <pubDate>Wed, 14 Oct 2026 15:47:50 GMT</pubDate>
+      <sparkle:version>202610141538</sparkle:version>
+      <sparkle:shortVersionString>0.14.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Patch Changes</h3><li>Pocket on the Mac: a right-click on an agent message offers Copy (the whole message) and Select Text, which opens it in a text view where any part can be selected and copied with ⌘C. The Mac app couldn&#x27;t select text in replies at all. iPhone, iPad and Android stay as they are.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.14.1-202610141538.dmg" sparkle:edSignature="80S4w7o0SLYrOBVwcedeTloRcaZiasVUfCVN3xeemV8X9Z1s37NEOqTdM9R1GxsXaD9RWZln6QrZmnYz7yNFCg==" length="11381487" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.14.0</title>
       <pubDate>Wed, 14 Oct 2026 08:56:33 GMT</pubDate>
       <sparkle:version>202610140850</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>Pocket Voice, a test on iOS: a little helper on top of the app you talk to, for example in the car. It listens and answers through Google&#x27;s Gemini Live API with your own key and works the app where you can see it: hops into workspaces, types into the message box, sends after you say yes, sums up what agents did. Hidden unless `pocket://voice?on` turns it on; not on Android yet.</li><h3>Patch Changes</h3><li>Pocket Host finds Tailscale even when it connects after Pocket Host started, for example right after login, so &quot;Enable Tailscale Serve&quot; shows up without restarting Pocket Host. It also finds Tailscale in other install locations, and if Tailscale is installed but not connected, the panel says so instead of &quot;Tailscale not detected&quot;.</li><li>Pocket Voice (the iOS test) shows in Settings what it has cost so far today, this month and in total, estimated from the tokens Gemini reports.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.12.0-202610121258.dmg" sparkle:edSignature="6YLc4Tn9sdkDc/sMsSCUbH4VfoWBprft/FEw4dK3EAT8c3ytOTx1B8jP866/AM3hOqYpaBWrZVgH3llIFIi8Bw==" length="11320853" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.11.1</title>
-      <pubDate>Tue, 06 Oct 2026 23:12:12 GMT</pubDate>
-      <sparkle:version>202610062240</sparkle:version>
-      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Patch Changes</h3><li>#53 `4c9baeb` Thanks @grischaerbe! - The workspace list no longer flashes &quot;Can’t reach …&quot; for a moment when you come back to the app: a connection error shows only once three loads in a row, a second apart, have failed. iPhone and Android alike.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.11.1-202610062240.dmg" sparkle:edSignature="tS+c0MDaxL006V1A28fDvnwTMBrbapwhpqu0+DUW5phLJSl/JRvaF2HWD3TvZJV5v0LCLur7fuphucne4yMSCA==" length="11294782" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
