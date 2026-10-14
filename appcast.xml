@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.14.0</title>
+      <pubDate>Wed, 14 Oct 2026 08:56:33 GMT</pubDate>
+      <sparkle:version>202610140850</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Pocket also runs on a Mac, for working on Conductor from another Mac such as a MacBook: the iPad layout, through Mac Catalyst. Click Copy pairing link in Pocket Host and Paste pairing link in Pocket to pair. It comes through TestFlight on the Mac once the release has a Mac profile; Android has no counterpart.</li><li>Typing &quot;/&quot; in the message box lists the chat&#x27;s slash commands and skills with what they take and do, like Conductor&#x27;s &quot;/&quot; menu; a tap puts one in the box. On iPhone, iPad, Mac and Android; needs the new Pocket Host.</li><h3>Patch Changes</h3><li>Pocket on the Mac: the chat fills the window instead of a narrow column, and the message box sits further from the window&#x27;s bottom edge. On the Mac and iPad, photos, videos and files dragged onto the message box become attachments, as if picked with &quot;+&quot;; not on Android yet.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.14.0-202610140850.dmg" sparkle:edSignature="saWO3HO7k69XBfiboOXRGU1jLNvgm3rIuuRvwOnPxNsAI3fGh9vAku9aOf3LIC6PcfyJ8s1FRopjcl94sIKABw==" length="11381492" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.13.1</title>
       <pubDate>Mon, 12 Oct 2026 21:29:32 GMT</pubDate>
       <sparkle:version>202610122123</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Patch Changes</h3><li>#53 `4c9baeb` Thanks @grischaerbe! - The workspace list no longer flashes &quot;Can’t reach …&quot; for a moment when you come back to the app: a connection error shows only once three loads in a row, a second apart, have failed. iPhone and Android alike.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.11.1-202610062240.dmg" sparkle:edSignature="tS+c0MDaxL006V1A28fDvnwTMBrbapwhpqu0+DUW5phLJSl/JRvaF2HWD3TvZJV5v0LCLur7fuphucne4yMSCA==" length="11294782" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.11.0</title>
-      <pubDate>Tue, 06 Oct 2026 17:40:08 GMT</pubDate>
-      <sparkle:version>202610061733</sparkle:version>
-      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>#49 `07550d7` Thanks @grischaerbe! - With a hardware keyboard, Enter in the message box sends, Shift+Enter starts a new line, and ⌘↩ (Ctrl+Enter on Android) queues the message while the agent works, like in Conductor, or sends it otherwise. On iPad the suggestion bar of a hardware keyboard no longer covers the bottom of the message box.</li><li>#52 `344bf48` Thanks @grischaerbe! - When a chat has an unsent draft on the Mac, the message about it now has an &quot;Overwrite&quot; button: it clears the draft in Conductor and sends your message instead. iPhone and Android alike.</li><h3>Patch Changes</h3><li>#50 `c7896f1` Thanks @grischaerbe! - iPad: the sidebar stays open when you leave the app and come back.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.11.0-202610061733.dmg" sparkle:edSignature="sVcglEybDO3YTIHAfoYuOaH0KIDVkdnsf10O0z+8KX/7kDZc7SSoEfKfy7eugc10AU2fsVbWmY6+BOAd8IX0CQ==" length="11296444" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
