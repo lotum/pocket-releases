@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.1",
-  "versionCode": 29866532,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.14.1.apk",
-  "notes": "• Pocket on the Mac: a right-click on an agent message offers Copy (the whole message) and Select Text, which opens it in a text view where any part can be selected and copied with ⌘C. The Mac app couldn't select text in replies at all. iPhone, iPad and Android stay as they are."
+  "versionName": "0.15.0",
+  "versionCode": 29875020,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.15.0.apk",
+  "notes": "• Pocket Host: \"Darken the screen\" (menu → Screen and sleep) turns every display black (and the backlight of the built-in display, LG UltraFine and Studio Display all the way down) while the phone keeps working, instead of the screen lighting up with each send. Meanwhile the Mac's mouse does nothing and any key brings the picture back, or, with an unlock code set, only that code.\n• Get notifications only for what you sent from Pocket: Settings → Notifications → \"Only for messages from Pocket\" leaves out the turns you started at the Mac. iPhone, iPad and Mac only, as Android has no notifications yet.\n• Pocket on the Mac: a right-click on your own message now offers Copy and Select Text as well, as it does on agent replies. Before, it only showed the system's text menu. Attached files are copied by their name. iPhone, iPad and Android stay as they are."
 }
