@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.16.0</title>
+      <pubDate>Fri, 23 Oct 2026 08:36:43 GMT</pubDate>
+      <sparkle:version>202610230827</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Attach photos, videos and files to the first message of a new workspace (&quot;Attach&quot; under the message, or drop them onto the form on the Mac and iPad). Pocket Host creates the workspace, waits for its folder and then sends the message with them. Needs the new Pocket Host.</li><h3>Patch Changes</h3><li>Answering the agent&#x27;s question from Pocket works again when the question or an option contains quotes or other Markdown, which Conductor shows typeset (&quot;QMO&quot; as “QMO”). Pocket Host used to report &quot;Conductor is not showing the agent&#x27;s question&quot;.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.16.0-202610230827.dmg" sparkle:edSignature="VKOWwLEoWmg3MoOfVVuXJ9hv8zZtUeHK5ZALOhVu/9DXD+zNsYRi57T0ryAHwvFrvx4IwVEpVXxY5/CAHCVyAw==" length="11421645" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.15.0</title>
       <pubDate>Tue, 20 Oct 2026 13:16:15 GMT</pubDate>
       <sparkle:version>202610201306</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Patch Changes</h3><li>Pocket Host builds again, so 0.13&#x27;s Google Cloud sign-in reaches the Mac: two of its libraries released new versions on 2026-10-12 that didn&#x27;t build together.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.13.1-202610122123.dmg" sparkle:edSignature="S1chMeWhEWbNJbFSldan7SSjzZcmwzjJiU7XklYr8m1KWSOdDm9capWaIzQA7qgOnz+lllhG7kFhGtGzuq9rCA==" length="11370662" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.12.1</title>
-      <pubDate>Mon, 12 Oct 2026 14:56:48 GMT</pubDate>
-      <sparkle:version>202610121450</sparkle:version>
-      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Patch Changes</h3><li>Pocket Voice (the iOS test) hears you now: the microphone&#x27;s audio reaches Gemini also where the iPhone&#x27;s echo cancellation delivers several channels or none at all. The helper says &quot;Connecting to Gemini…&quot; until it can talk, and Settings shows how the last conversation went.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.12.1-202610121450.dmg" sparkle:edSignature="LuTx/gCD3Xn1UFCSm33KmAlGoltWrvtAflG24eHHBbGRmv1jmxGRRQWULUnomhHNcur5OiyDgcSr6A6i0Hp6Dg==" length="11321865" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
