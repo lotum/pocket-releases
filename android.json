@@ -1,6 +1,6 @@
 {
-  "versionName": "0.16.0",
-  "versionCode": 29879061,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.16.0.apk",
-  "notes": "• Attach photos, videos and files to the first message of a new workspace (\"Attach\" under the message, or drop them onto the form on the Mac and iPad). Pocket Host creates the workspace, waits for its folder and then sends the message with them. Needs the new Pocket Host.\n• Answering the agent's question from Pocket works again when the question or an option contains quotes or other Markdown, which Conductor shows typeset (\"QMO\" as “QMO”). Pocket Host used to report \"Conductor is not showing the agent's question\"."
+  "versionName": "0.17.0",
+  "versionCode": 29886975,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.17.0.apk",
+  "notes": "• Code blocks in replies have a copy button in their corner that copies the code without its fences, on iPhone, iPad, Mac and Android. On the Mac, text in the chat can now be selected with the pointer: paragraphs, headings, list items, table cells and code blocks of replies, your own messages, the agent's questions and tool output. Copy it with ⌘C or a right-click; the right-click menu on a message offers Copy (the selection), Copy Message and Select Text."
 }
