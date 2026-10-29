@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.17.1</title>
+      <pubDate>Thu, 29 Oct 2026 10:52:36 GMT</pubDate>
+      <sparkle:version>202610291043</sparkle:version>
+      <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Patch Changes</h3><li>Pocket on the Mac: an agent&#x27;s reply can now be selected across paragraphs, headings, lists, quotes and code blocks in one go, as in Conductor, instead of one paragraph at a time. Copied, list items keep their `- ` and paragraphs a blank line between them. A right-click on text always offers Copy, along with Copy Message and Select Text. iPhone, iPad and Android stay as they are.</li>]]></description>
+      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.17.1-202610291043.dmg" sparkle:edSignature="PJCe5xyNi9IXaL2NPgSXlmSfyWlZDtelZiy3H3mzG/t/uM31izKK6WHE39lqQ09q1qcE3zt8dDUkET7lDXXBDg==" length="11427132" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.17.0</title>
       <pubDate>Wed, 28 Oct 2026 20:31:36 GMT</pubDate>
       <sparkle:version>202610282021</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Patch Changes</h3><li>Pocket on the Mac: a right-click on an agent message offers Copy (the whole message) and Select Text, which opens it in a text view where any part can be selected and copied with ⌘C. The Mac app couldn&#x27;t select text in replies at all. iPhone, iPad and Android stay as they are.</li>]]></description>
       <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.14.1-202610141538.dmg" sparkle:edSignature="80S4w7o0SLYrOBVwcedeTloRcaZiasVUfCVN3xeemV8X9Z1s37NEOqTdM9R1GxsXaD9RWZln6QrZmnYz7yNFCg==" length="11381487" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.14.0</title>
-      <pubDate>Wed, 14 Oct 2026 08:56:33 GMT</pubDate>
-      <sparkle:version>202610140850</sparkle:version>
-      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>Pocket also runs on a Mac, for working on Conductor from another Mac such as a MacBook: the iPad layout, through Mac Catalyst. Click Copy pairing link in Pocket Host and Paste pairing link in Pocket to pair. It comes through TestFlight on the Mac once the release has a Mac profile; Android has no counterpart.</li><li>Typing &quot;/&quot; in the message box lists the chat&#x27;s slash commands and skills with what they take and do, like Conductor&#x27;s &quot;/&quot; menu; a tap puts one in the box. On iPhone, iPad, Mac and Android; needs the new Pocket Host.</li><h3>Patch Changes</h3><li>Pocket on the Mac: the chat fills the window instead of a narrow column, and the message box sits further from the window&#x27;s bottom edge. On the Mac and iPad, photos, videos and files dragged onto the message box become attachments, as if picked with &quot;+&quot;; not on Android yet.</li>]]></description>
-      <enclosure url="https://lotum.github.io/pocket-releases/Pocket-Host-0.14.0-202610140850.dmg" sparkle:edSignature="saWO3HO7k69XBfiboOXRGU1jLNvgm3rIuuRvwOnPxNsAI3fGh9vAku9aOf3LIC6PcfyJ8s1FRopjcl94sIKABw==" length="11381492" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
