@@ -1,6 +1,6 @@
 {
-  "versionName": "0.17.0",
-  "versionCode": 29886975,
-  "url": "https://lotum.github.io/pocket-releases/Pocket-0.17.0.apk",
-  "notes": "• Code blocks in replies have a copy button in their corner that copies the code without its fences, on iPhone, iPad, Mac and Android. On the Mac, text in the chat can now be selected with the pointer: paragraphs, headings, list items, table cells and code blocks of replies, your own messages, the agent's questions and tool output. Copy it with ⌘C or a right-click; the right-click menu on a message offers Copy (the selection), Copy Message and Select Text."
+  "versionName": "0.17.1",
+  "versionCode": 29887835,
+  "url": "https://lotum.github.io/pocket-releases/Pocket-0.17.1.apk",
+  "notes": "• Pocket on the Mac: an agent's reply can now be selected across paragraphs, headings, lists, quotes and code blocks in one go, as in Conductor, instead of one paragraph at a time. Copied, list items keep their `- ` and paragraphs a blank line between them. A right-click on text always offers Copy, along with Copy Message and Select Text. iPhone, iPad and Android stay as they are."
 }
